@@ -1,0 +1,289 @@
+
+{
+	"easycom": {
+		"^tm-(.*)": "@/tm-vuetify/components/tm-$1/tm-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// 首页
+		{
+			"path": "pages/home/home",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			//仪表盘页面
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			// 决策地图
+			"path": "pages/maps/maps",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			// 风控尽调
+			"path": "pages/visite/visite",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			// 我的
+			"path": "pages/my/my",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			//登录页面
+			"path": "pages/login/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/growthRank/growthRank",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "预警企业风险增长排行",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/historicalRisk/historicalRisk",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/dynamicRisk/dynamicRisk",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "风险动态",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detectionDai/detectionDai",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "风险动态",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/dailyDetails/dailyDetails",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/checkRisk/checkRisk",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/searchIndex/searchIndex",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/companyDetails/companyDetails",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/brandDetails/brandDetails",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				},
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/enterpriseDueDiligence/EnterpriseDueDiligence",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				"navigationBarTitleText": "企业尽调",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/kycInfo/kycInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				"navigationBarTitleText": "KYC尽调",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/demonstration",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				"navigationBarTitleText": "演示专用",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}
+	    ,{
+            "path" : "pages/companyInfo/companyInfo",
+            "style" :                                                                                    
+            {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/RelevantInformation/RelevantInformation",
+            "style" :                                                                                    
+            {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+                "navigationBarTitleText": "相关信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/personDueDiligence/personDueDiligence",
+            "style" :                                                                                    
+            {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+                "navigationBarTitleText": "个人尽调",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#3662EC",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home_active.png"
+			},
+			{
+				"pagePath": "pages/maps/maps",
+				"text": "地图",
+				"iconPath": "static/tabbar/map.png",
+				"selectedIconPath": "static/tabbar/map_active.png"
+			},
+			{
+				"pagePath": "pages/visite/visite",
+				"text": "尽调",
+				"iconPath": "static/tabbar/visite.png",
+				"selectedIconPath": "static/tabbar/visite_active.png"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"text": "监测",
+				"iconPath": "static/tabbar/monitor.png",
+				"selectedIconPath": "static/tabbar/monitor_active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my_active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
